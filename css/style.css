@@ -25,6 +25,7 @@ main {
 
 section#telefone {
   position: absolute;
+  z-index: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -36,6 +37,7 @@ section#telefone {
 
 iframe#tela {
   position: relative;
+  z-index: 0;
   top: 80px;
   left: 22px;
   width: 267px;
