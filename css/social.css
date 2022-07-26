@@ -17,14 +17,56 @@ img {
 a {
   display: block;
   margin: 0;
-  background-color: darkred;
-  color: white;
   padding: 20px;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
 }
 
-a:hover {
+a.youtube {
+  background-color: #CC0E00;
+  color: white;
+}
+
+a.youtube:hover {
   background-color: #FF1500;
+}
+
+a.github {
+  background-color: black;
+  color: white;
+}
+
+a.github:hover {
+  background-color: white;
+  color: black;
+}
+
+a.instagram {
+  background-color: white;
+  background-image: linear-gradient(45deg, #F8D000, #FB6C03, #E81027, #BB3280, #803DB1);
+  color: black;
+}
+
+a.instagram:hover {
+  background-image: linear-gradient(45deg, hsla(50, 100%, 49%, 0.85), rgba(252, 107, 3, 0.85), rgba(232, 16, 38, 0.85), rgba(187, 50, 128, 0.85), rgba(129, 61, 177, 0.85));
+  color: white;
+}
+
+a.twitter {
+  background-color: #1D9BF0;
+  color: white;
+}
+
+a.twitter:hover {
+  background-color: #34b2e9;
+}
+
+a.facebook {
+  background-color: #38559C;
+  color: white;
+}
+
+a.facebook:hover {
+  background-color: #196ED7;
 }
